@@ -74,9 +74,14 @@ public class IndexPage extends BaseClass {
 	@FindBy(xpath = "//input[@data-qa='company']")
 	private WebElement company_name;
 	
+	
 	@FindBy(xpath = "//input[@data-qa='address2']")
 	private WebElement address2;
 	
+	
+	@FindBy(xpath = "//input[@name='address1']")
+	private WebElement address1;
+	 
 	
 	
 	public void verifyurl()
